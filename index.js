@@ -20,18 +20,18 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  var kittens = [...kittens, name];
-  return kittens;
+  var newKittens = [...kittens, name];
+  return newKittens;
 }
 
 function prependKitten(name){
-  var kittens = [name, ...kittens];
-  return kittens;
+  var newKittens = [name, ...kittens];
+  return newKittens;
 }
 
 function removeLastKitten(){
-  var kittens = kittens.slice(-1)
-  kittens
+  var newKittens = kittens.slice(-1)
+  return newKittens
 }
 
 function removeFirstKitten(){
